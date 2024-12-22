@@ -1,5 +1,6 @@
 {
   "private": true,
+  "sideEffects": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -7,15 +8,15 @@
   },
   "dependencies": {
     "next": "canary",
-    "nodemailer": "^6.9.14",
-    "react": "19.0.0-rc-6f23540c7d-20240528",
-    "react-dom": "19.0.0-rc-6f23540c7d-20240528"
+    "nodemailer": "^6.9.16",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
-    "@types/node": "20.12.12",
-    "@types/nodemailer": "^6.4.15",
-    "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0",
-    "typescript": "5.3.3"
+    "@types/node": "22.10.2",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "typescript": "5.7.2"
   }
 }
